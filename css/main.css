@@ -1,0 +1,182 @@
+/* ////////////////////////  Start General format on a web page  ////////////////////////// */
+*, body{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: right;
+  font-size: 2em;
+  font-family: Almarai;
+  line-height: 1.6;
+  background-color: #eaebed;
+}
+/* ////////////////////////  End General format on a web page  ////////////////////////// */
+
+
+/* ////////////////////////  Start Special format on the web page  ////////////////////////// */
+
+
+/* -----------------  Special Format On The Header  -------------------- */
+
+.header {
+  border-radius: 0px;
+  margin-top: 0px;
+  padding: 0px 130px 10px;
+  box-shadow: none;
+  background-color: #ffffff;
+  font-size: 0.75em;
+  text-align: right;
+  height: 150px;
+}
+.header .rows:first-child{
+  border-bottom: 0.5px solid #73737352;
+  padding: 10px 0;
+}
+.rows {
+  display: block;
+  clear: both;
+  margin-bottom: 15px;
+}
+/* -----------------  Icones  -------------------- */
+section div .icons {
+  text-align: left;
+}
+section div .icons i {
+  padding: 2px 12px;
+  border-left: 1px solid #eaebed;
+  color: #219089;
+}
+section div .icons .twitter i {
+  border-left: 0px solid #eaebed;
+}
+
+/* -----------------  Contact  -------------------- */
+section div .contact i {
+  padding: 2px 0px 2px 15px;
+  border-left: 1px solid #eaebed;
+  color: #219089;
+}
+section div .contact i:first-child {
+  border-left: 0px solid #eaebed;
+}
+section div .contact a {
+  text-decoration: none ;
+  color: #555;
+  padding-right: 15px;
+}
+section div .contact a:hover {
+  color: #219089;
+  text-decoration: underline;
+}
+
+/* -----------------  Navbar  -------------------- */
+.navbar ul {
+  padding-left: 0px;
+  display: block;
+  clear: both;
+  height: 50px;
+}
+.navbar ul li {
+  float: left;
+  list-style-type: none;
+  padding: 10px 20px 10px 0px;
+  color: #219089;
+  height: 50px;
+}
+.navbar ul li a, .navbar ul li a:hover{
+  color: #219089;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.navbar ul .active a, .navbar ul .active a:hover {
+  background-color: #219089;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+/* -----------------  Logo  -------------------- */
+.logo img {
+  width: 120px;
+  position: absolute;
+  top: -15px;
+  right: 0;
+}
+
+
+/* -----------------  Special Format On The Footer  -------------------- */
+
+footer {
+  border-radius: 0px;
+  margin-top: 50px;
+  padding: 10px 100px 10px 0px !important;
+  box-shadow: none;
+  background-color: #000000;
+  color: #ffffff;
+  height: auto;
+  font-size: 0.75em;
+  text-align: right;
+  display: block;
+  clear: both;
+}
+
+.colomes1 h4, .colomes2 h4, .colomes3 h4 {
+    border-right: 5px solid #219089;
+    padding-right: 8px;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+/* -----------------  Colomes 1  -------------------- */
+.colomes1 .icon-footer i {
+  color: #219089;
+  padding-top: 15px;
+}
+.colomes1 .icon-footer i small {
+  color: #ffffff;
+  font-size: .9em;
+}
+.colomes1 .icon-footer i:first-child {
+  display: block;
+  clear: both;
+}
+.colomes1 .icon-footer i a{
+  color: #219089;
+  text-decoration: none;
+}.colomes1 .icon-footer i a:hover{
+  text-decoration: underline;
+}
+.icons-footer {
+  margin-top: 15px;
+}
+.icons-footer a i {
+  padding: 2px 12px;
+  border-left: 1px solid #eaebed;
+  color: #219089;
+}
+.icons-footer .twitter i {
+  border-left: 0px solid #eaebed;
+}
+
+/* -----------------  Colomes 1  -------------------- */
+.colomes2 ul, .colomes2 ul li{
+  height: 100px;
+  list-style-type: none;
+}
+.colomes2 ul li a img {
+  width: 120px;
+  height: 90px;
+  margin: 5px;
+}
+
+/* -----------------  Colomes 1  -------------------- */
+.colomes3 p{
+  font-size: 1.1em;
+  line-height: 1.6;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+/* ////////////////////////  End Special format on the web page  ////////////////////////// */

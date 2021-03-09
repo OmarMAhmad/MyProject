@@ -1,0 +1,25 @@
+@media (max-width: 1220px){
+    .bx-viewport {
+      height: 450px !important;
+    }
+}
+@media (max-width: 1100px){
+.bx-viewport {
+    height: 400px !important;
+    }
+}
+@media (max-width: 999px){
+.bx-viewport {
+    height: 350px !important;
+    }
+}
+@media (max-width: 888px){
+.bx-viewport {
+    height: 300px !important;
+    }
+}
+@media (max-width: 655px){
+.bx-viewport {
+    height: 250px !important;
+    }
+}
